@@ -43,9 +43,12 @@ struct HomeView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    if !viewModel.isSearching {
-                        GradientTitleView("LOGO")
-                    }
+                    HStack {
+                        if !viewModel.isSearching {
+                            GradientTitleView("LOGO")
+                        }
+                    }.transition(.opacity)
+                        .animation(.linear, value: viewModel.isSearching)
                 }
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
