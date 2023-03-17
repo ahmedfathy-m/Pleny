@@ -55,7 +55,8 @@ class HomeViewModel: ObservableObject {
                     guard let regex = try? NSRegularExpression(pattern: self.search, options: .caseInsensitive) else { return post}
                     let range = NSRange(location: 0, length: post.body.count)
                     let body = regex.stringByReplacingMatches(in: post.body, options: [], range: range, withTemplate: "**$0**")
-                    let newPost = Post(id: post.id, title: post.title, body: body, userID: post.userID, tags: post.tags, reactions: post.reactions)
+                    var newPost = Post(id: post.id, title: post.title, body: body, userID: post.userID, tags: post.tags, reactions: post.reactions)
+                    newPost.header = Header.allHeaders.randomElement()
                     return newPost
                 }
                 self.posts.append(contentsOf: results)
@@ -74,7 +75,12 @@ class HomeViewModel: ObservableObject {
                 }
             } receiveValue: {
                 if reload { self.posts = [] }
-                self.posts.append(contentsOf: $0)
+                let results = $0.map { post in
+                    var postWithHeader = post
+                    postWithHeader.header = Header.allHeaders.randomElement()
+                    return postWithHeader
+                }
+                self.posts.append(contentsOf: results)
             }
             .store(in: &cancellables)
     }

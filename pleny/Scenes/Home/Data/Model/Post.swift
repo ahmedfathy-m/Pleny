@@ -14,6 +14,8 @@ struct Post: Codable, Identifiable {
     let userID: Int
     let tags: [String]
     let reactions: Int
+    
+    var header: Header?
 
     enum CodingKeys: String, CodingKey {
         case id, title, body
