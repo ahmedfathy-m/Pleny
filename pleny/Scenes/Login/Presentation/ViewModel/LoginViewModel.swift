@@ -17,8 +17,8 @@ class LoginViewModel: ObservableObject {
     }
     
     // MARK: - Credentials
-    @Published var username: String = "kminchelle"
-    @Published var password: String = "0lelplR"
+    @Published var username: String = ""
+    @Published var password: String = ""
     @Published var isSecure: Bool = true
     
     // MARK: - Errors
