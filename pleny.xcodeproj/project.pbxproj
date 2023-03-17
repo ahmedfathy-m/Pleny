@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7491C4F929C4E15500129044 /* ValidationErros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491C4F829C4E15500129044 /* ValidationErros.swift */; };
+		74AD63FD29C46A8200E5D9DF /* FetchPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD63FC29C46A8200E5D9DF /* FetchPostsUseCase.swift */; };
+		74AD640029C46AF300E5D9DF /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD63FF29C46AF300E5D9DF /* PostsRepository.swift */; };
+		74AD640329C46B8400E5D9DF /* FetchPostsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD640229C46B8400E5D9DF /* FetchPostsRequest.swift */; };
+		74AD640629C46BA600E5D9DF /* SearchPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD640529C46BA600E5D9DF /* SearchPostsUseCase.swift */; };
+		74AD640829C46C1F00E5D9DF /* SearchPostsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD640729C46C1F00E5D9DF /* SearchPostsRequest.swift */; };
+		74AD640B29C46CA100E5D9DF /* SavePostUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD640A29C46CA100E5D9DF /* SavePostUseCase.swift */; };
+		74AD640D29C46D5700E5D9DF /* SavePostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD640C29C46D5700E5D9DF /* SavePostRequest.swift */; };
+		74AD641129C4941C00E5D9DF /* PostsDatasourceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641029C4941C00E5D9DF /* PostsDatasourceInterface.swift */; };
+		74AD641329C4943900E5D9DF /* PostRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641229C4943900E5D9DF /* PostRemoteDatasource.swift */; };
+		74AD641529C4947400E5D9DF /* PostLocalDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641429C4947400E5D9DF /* PostLocalDatasource.swift */; };
+		74AD641829C494B800E5D9DF /* PostsDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641729C494B800E5D9DF /* PostsDataRepository.swift */; };
+		74AD641B29C49BBF00E5D9DF /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641A29C49BBF00E5D9DF /* Route.swift */; };
+		74AD641D29C49BEC00E5D9DF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641C29C49BEC00E5D9DF /* HTTPMethod.swift */; };
+		74AD641F29C49C7600E5D9DF /* HTTPBodyEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD641E29C49C7600E5D9DF /* HTTPBodyEncoding.swift */; };
+		74AD642129C49D8F00E5D9DF /* HTTPBodyParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD642029C49D8F00E5D9DF /* HTTPBodyParameters.swift */; };
+		74AD642329C4A01800E5D9DF /* URLRequest+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD642229C4A01800E5D9DF /* URLRequest+Query.swift */; };
+		74AD642529C4A04700E5D9DF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD642429C4A04700E5D9DF /* Service.swift */; };
+		74AD642829C4A25200E5D9DF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD642729C4A25200E5D9DF /* HomeRouter.swift */; };
+		74AD644D29C4B64800E5D9DF /* SavedPosts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74AD644B29C4B64800E5D9DF /* SavedPosts.xcdatamodeld */; };
+		74AD644F29C4BE1700E5D9DF /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD644E29C4BE1600E5D9DF /* PersistenceController.swift */; };
+		74AD645429C4D55B00E5D9DF /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD645329C4D55B00E5D9DF /* ErrorModel.swift */; };
+		74AD645729C4D5E600E5D9DF /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD645629C4D5E600E5D9DF /* LoginUseCase.swift */; };
+		74AD645A29C4D5F500E5D9DF /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD645929C4D5F500E5D9DF /* LoginRequest.swift */; };
+		74AD645D29C4D65D00E5D9DF /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD645C29C4D65D00E5D9DF /* AuthRepository.swift */; };
+		74AD646129C4D76800E5D9DF /* AuthRepositoryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD646029C4D76800E5D9DF /* AuthRepositoryObject.swift */; };
+		74AD646529C4D7B300E5D9DF /* AuthRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD646429C4D7B300E5D9DF /* AuthRemoteDatasource.swift */; };
+		74AD646729C4D7F200E5D9DF /* AuthRemoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD646629C4D7F200E5D9DF /* AuthRemoteStore.swift */; };
+		74AD646929C4D84800E5D9DF /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD646829C4D84800E5D9DF /* AuthRouter.swift */; };
 		74CE211829C23FCB002B1214 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE211729C23FCB002B1214 /* Timeline.swift */; };
 		74CE211E29C29329002B1214 /* UsernameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE211D29C29329002B1214 /* UsernameField.swift */; };
 		74CE212029C29343002B1214 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE211F29C29343002B1214 /* PasswordField.swift */; };
@@ -14,6 +43,7 @@
 		74CE212429C293B6002B1214 /* SingleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE212329C293B6002B1214 /* SingleImageView.swift */; };
 		74CE212629C2954C002B1214 /* GradientTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE212529C2954C002B1214 /* GradientTitleView.swift */; };
 		74CE212829C295B7002B1214 /* SearchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE212729C295B7002B1214 /* SearchControl.swift */; };
+		74E0D1F629C4F40C009854BB /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0D1F529C4F40C009854BB /* Headers.swift */; };
 		8CB74AC429C1CDD3005AC28B /* plenyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB74AC329C1CDD3005AC28B /* plenyApp.swift */; };
 		8CB74AC629C1CDD3005AC28B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB74AC529C1CDD3005AC28B /* ContentView.swift */; };
 		8CB74AC829C1CDD6005AC28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB74AC729C1CDD6005AC28B /* Assets.xcassets */; };
@@ -51,6 +81,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7491C4F829C4E15500129044 /* ValidationErros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErros.swift; sourceTree = "<group>"; };
+		74AD63FC29C46A8200E5D9DF /* FetchPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPostsUseCase.swift; sourceTree = "<group>"; };
+		74AD63FF29C46AF300E5D9DF /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
+		74AD640229C46B8400E5D9DF /* FetchPostsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPostsRequest.swift; sourceTree = "<group>"; };
+		74AD640529C46BA600E5D9DF /* SearchPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPostsUseCase.swift; sourceTree = "<group>"; };
+		74AD640729C46C1F00E5D9DF /* SearchPostsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPostsRequest.swift; sourceTree = "<group>"; };
+		74AD640A29C46CA100E5D9DF /* SavePostUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePostUseCase.swift; sourceTree = "<group>"; };
+		74AD640C29C46D5700E5D9DF /* SavePostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePostRequest.swift; sourceTree = "<group>"; };
+		74AD641029C4941C00E5D9DF /* PostsDatasourceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDatasourceInterface.swift; sourceTree = "<group>"; };
+		74AD641229C4943900E5D9DF /* PostRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRemoteDatasource.swift; sourceTree = "<group>"; };
+		74AD641429C4947400E5D9DF /* PostLocalDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLocalDatasource.swift; sourceTree = "<group>"; };
+		74AD641729C494B800E5D9DF /* PostsDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataRepository.swift; sourceTree = "<group>"; };
+		74AD641A29C49BBF00E5D9DF /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		74AD641C29C49BEC00E5D9DF /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		74AD641E29C49C7600E5D9DF /* HTTPBodyEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBodyEncoding.swift; sourceTree = "<group>"; };
+		74AD642029C49D8F00E5D9DF /* HTTPBodyParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBodyParameters.swift; sourceTree = "<group>"; };
+		74AD642229C4A01800E5D9DF /* URLRequest+Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Query.swift"; sourceTree = "<group>"; };
+		74AD642429C4A04700E5D9DF /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		74AD642729C4A25200E5D9DF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		74AD644C29C4B64800E5D9DF /* SavedPosts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedPosts.xcdatamodel; sourceTree = "<group>"; };
+		74AD644E29C4BE1600E5D9DF /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		74AD645329C4D55B00E5D9DF /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		74AD645629C4D5E600E5D9DF /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		74AD645929C4D5F500E5D9DF /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		74AD645C29C4D65D00E5D9DF /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		74AD646029C4D76800E5D9DF /* AuthRepositoryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryObject.swift; sourceTree = "<group>"; };
+		74AD646429C4D7B300E5D9DF /* AuthRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteDatasource.swift; sourceTree = "<group>"; };
+		74AD646629C4D7F200E5D9DF /* AuthRemoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteStore.swift; sourceTree = "<group>"; };
+		74AD646829C4D84800E5D9DF /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		74CE211729C23FCB002B1214 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 		74CE211D29C29329002B1214 /* UsernameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameField.swift; sourceTree = "<group>"; };
 		74CE211F29C29343002B1214 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
@@ -58,6 +117,7 @@
 		74CE212329C293B6002B1214 /* SingleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageView.swift; sourceTree = "<group>"; };
 		74CE212529C2954C002B1214 /* GradientTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTitleView.swift; sourceTree = "<group>"; };
 		74CE212729C295B7002B1214 /* SearchControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControl.swift; sourceTree = "<group>"; };
+		74E0D1F529C4F40C009854BB /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
 		8CB74AC029C1CDD3005AC28B /* pleny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB74AC329C1CDD3005AC28B /* plenyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyApp.swift; sourceTree = "<group>"; };
 		8CB74AC529C1CDD3005AC28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +165,232 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74AD63F929C469EF00E5D9DF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8CB74B0329C206E8005AC28B /* Components */,
+				74CE211229C23FA3002B1214 /* View */,
+				74CE211329C23FA8002B1214 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		74AD63FA29C469F700E5D9DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				74AD63FE29C46ADD00E5D9DF /* RepositoryInterface */,
+				74AD63FB29C46A6800E5D9DF /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		74AD63FB29C46A6800E5D9DF /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				74AD640929C46C7A00E5D9DF /* SavePostUseCase */,
+				74AD640429C46B9400E5D9DF /* SearchPostsUseCase */,
+				74AD640129C46B7800E5D9DF /* FetchPostsUseCase */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		74AD63FE29C46ADD00E5D9DF /* RepositoryInterface */ = {
+			isa = PBXGroup;
+			children = (
+				74AD63FF29C46AF300E5D9DF /* PostsRepository.swift */,
+			);
+			path = RepositoryInterface;
+			sourceTree = "<group>";
+		};
+		74AD640129C46B7800E5D9DF /* FetchPostsUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				74AD63FC29C46A8200E5D9DF /* FetchPostsUseCase.swift */,
+				74AD640229C46B8400E5D9DF /* FetchPostsRequest.swift */,
+			);
+			path = FetchPostsUseCase;
+			sourceTree = "<group>";
+		};
+		74AD640429C46B9400E5D9DF /* SearchPostsUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				74AD640529C46BA600E5D9DF /* SearchPostsUseCase.swift */,
+				74AD640729C46C1F00E5D9DF /* SearchPostsRequest.swift */,
+			);
+			path = SearchPostsUseCase;
+			sourceTree = "<group>";
+		};
+		74AD640929C46C7A00E5D9DF /* SavePostUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				74AD640A29C46CA100E5D9DF /* SavePostUseCase.swift */,
+				74AD640C29C46D5700E5D9DF /* SavePostRequest.swift */,
+			);
+			path = SavePostUseCase;
+			sourceTree = "<group>";
+		};
+		74AD640E29C46E9000E5D9DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				74CE211129C23F9C002B1214 /* Model */,
+				74AD641629C4949300E5D9DF /* Repository */,
+				74AD640F29C493DD00E5D9DF /* Datasources */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		74AD640F29C493DD00E5D9DF /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				74AD644829C4B4E600E5D9DF /* Interface */,
+				74AD644929C4B4EC00E5D9DF /* Remote */,
+				74AD644A29C4B4F200E5D9DF /* Local */,
+			);
+			path = Datasources;
+			sourceTree = "<group>";
+		};
+		74AD641629C4949300E5D9DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				74AD641729C494B800E5D9DF /* PostsDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		74AD641929C49BB200E5D9DF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				74AD641A29C49BBF00E5D9DF /* Route.swift */,
+				74AD641C29C49BEC00E5D9DF /* HTTPMethod.swift */,
+				74AD641E29C49C7600E5D9DF /* HTTPBodyEncoding.swift */,
+				74AD642029C49D8F00E5D9DF /* HTTPBodyParameters.swift */,
+				74AD642229C4A01800E5D9DF /* URLRequest+Query.swift */,
+				74AD642429C4A04700E5D9DF /* Service.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		74AD642629C4A20D00E5D9DF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				74AD642729C4A25200E5D9DF /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		74AD644829C4B4E600E5D9DF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				74AD641029C4941C00E5D9DF /* PostsDatasourceInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		74AD644929C4B4EC00E5D9DF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				74AD641229C4943900E5D9DF /* PostRemoteDatasource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		74AD644A29C4B4F200E5D9DF /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				74AD641429C4947400E5D9DF /* PostLocalDatasource.swift */,
+				74AD644B29C4B64800E5D9DF /* SavedPosts.xcdatamodeld */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		74AD645029C4D52800E5D9DF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				74AD646829C4D84800E5D9DF /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		74AD645129C4D53100E5D9DF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				74CE211C29C29314002B1214 /* Components */,
+				74CE211429C23FAE002B1214 /* ViewModel */,
+				74CE211529C23FB3002B1214 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		74AD645229C4D54B00E5D9DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				74AD645F29C4D73F00E5D9DF /* Datasources */,
+				74AD645E29C4D73A00E5D9DF /* Repository */,
+				74CE211629C23FB8002B1214 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		74AD645529C4D57600E5D9DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				74AD645B29C4D64700E5D9DF /* RepositoryInterface */,
+				74AD645829C4D5EA00E5D9DF /* LoginUseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		74AD645829C4D5EA00E5D9DF /* LoginUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				74AD645629C4D5E600E5D9DF /* LoginUseCase.swift */,
+				74AD645929C4D5F500E5D9DF /* LoginRequest.swift */,
+				7491C4F829C4E15500129044 /* ValidationErros.swift */,
+			);
+			path = LoginUseCase;
+			sourceTree = "<group>";
+		};
+		74AD645B29C4D64700E5D9DF /* RepositoryInterface */ = {
+			isa = PBXGroup;
+			children = (
+				74AD645C29C4D65D00E5D9DF /* AuthRepository.swift */,
+			);
+			path = RepositoryInterface;
+			sourceTree = "<group>";
+		};
+		74AD645E29C4D73A00E5D9DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				74AD646029C4D76800E5D9DF /* AuthRepositoryObject.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		74AD645F29C4D73F00E5D9DF /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				74AD646329C4D79300E5D9DF /* Remote */,
+				74AD646229C4D78B00E5D9DF /* Interface */,
+			);
+			path = Datasources;
+			sourceTree = "<group>";
+		};
+		74AD646229C4D78B00E5D9DF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				74AD646429C4D7B300E5D9DF /* AuthRemoteDatasource.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		74AD646329C4D79300E5D9DF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				74AD646629C4D7F200E5D9DF /* AuthRemoteStore.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 		74CE211129C23F9C002B1214 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB74AF529C1DC60005AC28B /* LoginModel.swift */,
+				74AD645329C4D55B00E5D9DF /* ErrorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +449,14 @@
 				74CE212129C29368002B1214 /* LoginButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		74E0D1F429C4F3F7009854BB /* Randoms */ = {
+			isa = PBXGroup;
+			children = (
+				74E0D1F529C4F40C009854BB /* Headers.swift */,
+			);
+			path = Randoms;
 			sourceTree = "<group>";
 		};
 		8CB74AB729C1CDD3005AC28B = {
@@ -187,12 +482,15 @@
 		8CB74AC229C1CDD3005AC28B /* pleny */ = {
 			isa = PBXGroup;
 			children = (
+				74E0D1F429C4F3F7009854BB /* Randoms */,
+				74AD641929C49BB200E5D9DF /* Networking */,
 				8CB74AF929C1E38B005AC28B /* Coordinator */,
 				8CB74AED29C1CE1C005AC28B /* Scenes */,
 				8CB74AC329C1CDD3005AC28B /* plenyApp.swift */,
 				8CB74AC529C1CDD3005AC28B /* ContentView.swift */,
 				8CB74AC729C1CDD6005AC28B /* Assets.xcassets */,
 				8CB74AC929C1CDD6005AC28B /* Preview Content */,
+				74AD644E29C4BE1600E5D9DF /* PersistenceController.swift */,
 			);
 			path = pleny;
 			sourceTree = "<group>";
@@ -234,10 +532,10 @@
 		8CB74AEE29C1CE22005AC28B /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				74CE211C29C29314002B1214 /* Components */,
-				74CE211429C23FAE002B1214 /* ViewModel */,
-				74CE211529C23FB3002B1214 /* View */,
-				74CE211629C23FB8002B1214 /* Model */,
+				74AD645529C4D57600E5D9DF /* Domain */,
+				74AD645029C4D52800E5D9DF /* Router */,
+				74AD645129C4D53100E5D9DF /* Presentation */,
+				74AD645229C4D54B00E5D9DF /* Data */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -254,10 +552,10 @@
 		8CB74B0029C1EB08005AC28B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8CB74B0329C206E8005AC28B /* Components */,
-				74CE211129C23F9C002B1214 /* Model */,
-				74CE211229C23FA3002B1214 /* View */,
-				74CE211329C23FA8002B1214 /* ViewModel */,
+				74AD642629C4A20D00E5D9DF /* Router */,
+				74AD640E29C46E9000E5D9DF /* Data */,
+				74AD63FA29C469F700E5D9DF /* Domain */,
+				74AD63F929C469EF00E5D9DF /* Presentation */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -404,25 +702,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AD640629C46BA600E5D9DF /* SearchPostsUseCase.swift in Sources */,
 				8CB74AC629C1CDD3005AC28B /* ContentView.swift in Sources */,
+				74AD646129C4D76800E5D9DF /* AuthRepositoryObject.swift in Sources */,
+				74AD641B29C49BBF00E5D9DF /* Route.swift in Sources */,
 				74CE212229C29368002B1214 /* LoginButton.swift in Sources */,
+				74AD640829C46C1F00E5D9DF /* SearchPostsRequest.swift in Sources */,
+				74E0D1F629C4F40C009854BB /* Headers.swift in Sources */,
+				74AD644F29C4BE1700E5D9DF /* PersistenceController.swift in Sources */,
+				74AD645D29C4D65D00E5D9DF /* AuthRepository.swift in Sources */,
+				74AD642529C4A04700E5D9DF /* Service.swift in Sources */,
+				74AD642829C4A25200E5D9DF /* HomeRouter.swift in Sources */,
 				74CE212829C295B7002B1214 /* SearchControl.swift in Sources */,
 				8CB74B0B29C20D4F005AC28B /* Post.swift in Sources */,
+				74AD640B29C46CA100E5D9DF /* SavePostUseCase.swift in Sources */,
+				74AD646729C4D7F200E5D9DF /* AuthRemoteStore.swift in Sources */,
+				74AD641829C494B800E5D9DF /* PostsDataRepository.swift in Sources */,
+				74AD640329C46B8400E5D9DF /* FetchPostsRequest.swift in Sources */,
+				74AD641129C4941C00E5D9DF /* PostsDatasourceInterface.swift in Sources */,
 				8CB74AF629C1DC60005AC28B /* LoginModel.swift in Sources */,
+				74AD641D29C49BEC00E5D9DF /* HTTPMethod.swift in Sources */,
 				8CB74AC429C1CDD3005AC28B /* plenyApp.swift in Sources */,
 				74CE212629C2954C002B1214 /* GradientTitleView.swift in Sources */,
 				8CB74B0729C20C99005AC28B /* ImageGridView.swift in Sources */,
+				7491C4F929C4E15500129044 /* ValidationErros.swift in Sources */,
 				8CB74AF429C1CE4B005AC28B /* LoginView.swift in Sources */,
+				74AD642129C49D8F00E5D9DF /* HTTPBodyParameters.swift in Sources */,
+				74AD641F29C49C7600E5D9DF /* HTTPBodyEncoding.swift in Sources */,
 				8CB74AF029C1CE32005AC28B /* LoginViewModel.swift in Sources */,
+				74AD63FD29C46A8200E5D9DF /* FetchPostsUseCase.swift in Sources */,
 				8CB74B0D29C20E75005AC28B /* HomeViewModel.swift in Sources */,
+				74AD641529C4947400E5D9DF /* PostLocalDatasource.swift in Sources */,
+				74AD642329C4A01800E5D9DF /* URLRequest+Query.swift in Sources */,
 				74CE211E29C29329002B1214 /* UsernameField.swift in Sources */,
 				8CB74B0229C1FC17005AC28B /* HomeView.swift in Sources */,
+				74AD640029C46AF300E5D9DF /* PostsRepository.swift in Sources */,
+				74AD645429C4D55B00E5D9DF /* ErrorModel.swift in Sources */,
 				8CB74AFB29C1E39C005AC28B /* CoordinatorObject.swift in Sources */,
 				74CE211829C23FCB002B1214 /* Timeline.swift in Sources */,
+				74AD645A29C4D5F500E5D9DF /* LoginRequest.swift in Sources */,
+				74AD646529C4D7B300E5D9DF /* AuthRemoteDatasource.swift in Sources */,
+				74AD641329C4943900E5D9DF /* PostRemoteDatasource.swift in Sources */,
 				8CB74B0929C20CC8005AC28B /* PostView.swift in Sources */,
+				74AD644D29C4B64800E5D9DF /* SavedPosts.xcdatamodeld in Sources */,
 				74CE212029C29343002B1214 /* PasswordField.swift in Sources */,
 				8CB74AFF29C1E4DF005AC28B /* CoordinatorView.swift in Sources */,
+				74AD640D29C46D5700E5D9DF /* SavePostRequest.swift in Sources */,
+				74AD646929C4D84800E5D9DF /* AuthRouter.swift in Sources */,
 				74CE212429C293B6002B1214 /* SingleImageView.swift in Sources */,
+				74AD645729C4D5E600E5D9DF /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +1077,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74AD644B29C4B64800E5D9DF /* SavedPosts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74AD644C29C4B64800E5D9DF /* SavedPosts.xcdatamodel */,
+			);
+			currentVersion = 74AD644C29C4B64800E5D9DF /* SavedPosts.xcdatamodel */;
+			path = SavedPosts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8CB74AB829C1CDD3005AC28B /* Project object */;
 }

@@ -17,12 +17,24 @@ class CoordinatorObject: ObservableObject {
     @Published var didLogin = false
 
     init() {
-        loginViewModel = LoginViewModel(coordinator: self)
+        let remote = AuthRemoteStore()
+        let repo = AuthRepositoryObject(remote: remote)
+        let loginUseCase = LoginUseCase(repository: repo)
+        loginViewModel = LoginViewModel(coordinator: self, loginUseCase: loginUseCase)
     }
     
     func switchToHome() {
         didLogin = true
-        homeViewModel = HomeViewModel(coordinator: self)
+        let remote = PostsRemoteStore()
+        let localStore = PostsLocalStore()
+        let repo = PostsDataRepository(remoteDataSource: remote, localDataSource: localStore)
+        let fetchPostsUseCase = FetchPostsUseCase(repository: repo)
+        let searchPostsUseCase = SearchPostsUseCase(repository: repo)
+        let savePostUseCase = SavePostUseCase(repository: repo)
+        homeViewModel = HomeViewModel(coordinator: self,
+                                      fetchPostsUseCase: fetchPostsUseCase,
+                                      searchPostsUseCase: searchPostsUseCase,
+                                      savePostUseCase: savePostUseCase)
     }
 }
 
